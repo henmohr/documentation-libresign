@@ -79,10 +79,10 @@ npm
 
 - Install dependencies defined in ``package.json``:
 
-.. code-block:: bash
+  .. code-block:: bash
 
-   docker run -it -v $PWD:/app --workdir /app node npm ci
-   docker run -it -v $PWD:/app --workdir /app node npm run build
+     docker run -it -v $PWD:/app --workdir /app node npm ci
+     docker run -it -v $PWD:/app --workdir /app node npm run build
 
 Update the app in Nextcloud
 +++++++++++++++++++++++++++
